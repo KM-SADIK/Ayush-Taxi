@@ -1,0 +1,494 @@
+.flt {
+    width: 100%;
+    float: left;
+}
+
+.head_container {
+    padding-bottom: 10px;
+}
+
+/* --------navbar section -----*/
+.navbar {
+    padding-top: 20px !important;
+}
+
+.nav li {
+    margin-left: 5px;
+    padding: 0px 16px;
+}
+
+.nav li a {
+    color: black !important;
+}
+
+#menu_home {
+    color: rgb(255 199 10) !important;
+}
+
+.navbar-inverse {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-btn {
+    padding: 10px 40px;
+    border: 1px solid rgb(255 199 10);
+    background-color: rgb(255 255 255);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-btn a {
+    color: black !important;
+    font-weight: 500;
+    line-height: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.navbar-btn a:hover {
+    text-decoration: none;
+
+}
+
+/* banner section*/
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner_img img {
+    width: 100%;
+}
+
+.banner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner_text .text {
+    font-size: 58px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    text-align: center;
+    width: 100%;
+}
+
+/* about section */
+.about_head {
+    background: rgb(245 245 245);
+    padding-bottom: 50px;
+}
+
+.about_title h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px 0px;
+}
+
+.about_right {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(51 51 51);
+}
+
+.about_img img{
+    width:100%;
+}
+
+/* Why Us */
+
+.why_head {
+    background-image: url(../images/why-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    width:100%;
+}
+
+.why_head .why_title h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why_box {
+    background-color: rgb(255 255 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 35px 10px;
+    border: 5px solid transparent;
+    justify-content: space-evenly;
+    transition: 0.2s all ease-in-out;
+}
+
+.why_box:hover {
+    border: 5px solid rgb(245, 163, 2);
+    transition: 0.2s all ease-in-out;
+}
+
+.why_box img {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.why_box p {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(51 51 51);
+    text-align: center;
+}
+
+/*  ----------gallery------     */
+
+.gallery_title h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.banner1 {
+    padding: 8px;
+}
+
+.banner1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery_information .col-sm-3 {
+    padding: 0px !important;
+}
+
+/* Testimonials */
+
+.testimonial_main {
+    width: 100%;
+    height: 600px;
+}
+
+.test_title h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.test_information {
+    background: linear-gradient(white, rgb(153 172 251));
+}
+
+.test_car img{
+    width:100%;
+}
+
+.test_boxes {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(25, 24, 24);
+    padding-bottom:5px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.icon_person,
+.name,
+.designation,
+.profile {
+    text-align: center;
+    font-weight: 400;
+}
+
+.icon_person {
+    padding: 5px;
+}
+
+.icon_person img {
+    margin: 0% auto;
+    border-radius: 50%;
+    border: 1px solid rgb(165 165 165);
+}
+
+/* ---- contact Us ---------*/
+.contact_title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact_right h2 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.contact_right span {
+    color: rgb(245, 163, 2);
+}
+.contact_location{
+    position: relative;
+}
+.cont-img1{
+    position: absolute;
+}
+.cont_text1{
+    position: absolute;;
+}
+.contact_call{
+    position: relative;
+}
+.cont-img2{
+    position: absolute;
+}
+.cont_text2{
+    position: absolute;
+}
+.contact_mail{
+    position: relative;
+}
+
+.cont-img3{
+    position: absolute;
+}
+.cont_text3{
+    position: absolute;
+}
+.cont_txt{
+    margin-left: 40px;
+}
+
+.contact_lists{
+    line-height: 25px;
+}
+
+
+.contact-btn button {
+    margin-top: 50px;
+    margin-left: 40px;
+    background-color: rgb(245, 163, 2);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.contact-btn button a span {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.contact_rg-lf {
+    position: relative;
+}
+
+.contact_rg-lf .contact_hand img{
+    right: 0px;
+    bottom: 0%;
+    position: absolute;
+}
+
+.contact_rg-lf {
+    margin-bottom: 10px;
+}
+
+.contact_map iframe {
+    border-radius: 10px;
+}
+
+/* footer section */
+
+.footer-container {
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0px 35px 0px;
+    text-align: center;
+}
+
+.footer-img {
+    margin-top: 20px;
+}
+
+.footer-lists li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-lists li a {
+    color: rgb(255 255 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+hr {
+    padding: 0px 20px;
+}
+
+.footer-container a {
+    color: rgb(255 255 255);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-container a:hover {
+    color: rgb(255 255 255);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-end {
+    color: rgb(255 255 255);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+
+/* media query */
+@media (min-width:768px) {
+    
+    .why_information .row {
+        display: flex;
+        align-items: center;
+    }
+    .about_head .row{
+        display: flex;
+        align-items: center;
+    }
+    .test_information .row{
+        display: flex;
+        align-items: center;
+    }
+    .contact_main .row{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:479px) {
+    .banner {
+        width: 100%;
+    }
+
+    .banner_text .text {
+        font-size: 30px;
+        font-weight: 700;
+        width: 100%;
+    }
+
+
+    /* about section */
+
+    .about_title h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .about_right {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .about_img{
+        width:100%;
+    }
+
+    /* Why Us */
+
+    .why_box{
+        margin-bottom: 20px;
+    }
+
+    .why_head .why_title h2 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .why_box p {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    /*  ----------gallery------     */
+
+    .gallery_title h2 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+
+    /* Testimonials */
+
+
+    .test_title h2 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .test_boxes{
+       display: none;
+    }
+    .testimonial_main {
+        height: 500px;
+    }
+    /* ---- contact Us ---------*/
+    .contact_title h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .contact_lists li {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    
+
+    .contact-btn button a span {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    /* footer section */
+
+    .footer-lists li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+    .footer-container a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+}
